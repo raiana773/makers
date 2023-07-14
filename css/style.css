@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: yellowgreen;
+     /* flex-direction: row-reverse;  */
+      /* justify-content: space-evenly; */
+     /* justify-content: flex-end; */
+     /* align-items: baseline;  */
+    flex-direction: column;
+     justify-content: flex-end;
+}
+.blocks {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: blue;
+    color: wheat;
+    margin: 10px;
+}
+
+#blocks-3 {
+    height: 70px;
+}
